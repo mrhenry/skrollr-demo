@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.td {
+  display: table-cell;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.frames {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: fixed;
+}
+
+.frame {
+  background-color: rgb(71, 82, 94);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+#frame-1 {
+  color: white;
+}
+
+#frame-1 h1 span {
+  display: inline-block;
+  position: relative;
+}
+
+#frame-1 .avatar {
+  background-image: url(http://gravatar.com/avatar/d071639dd618b656f53997053e2e5cb2?s=512);
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  height: 300px;
+  position: relative;
+  width: 300px;
+}
