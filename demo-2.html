@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Skrollr Demo 1</title>
+  <title>Skrollr Demo 2</title>
   <link rel="stylesheet" href="demo.css">
   <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
@@ -11,14 +11,13 @@
   <div class="frames">
 
     <div id="frame-1" class="frame"
-      data-0="background-color: rgb(30,30,30);"
-      data-1000="background-color: rgb(120, 129, 137); opacity: 1;"
-      data-5000="top: 0%; opacity: 0.5;"
-      data-6000="top: -100%;">
+      data-0p="background-color: rgb(30,30,30);"
+      data-100p="background-color: rgb(120, 129, 137); opacity: 1; top: 0%;"
+      data-200p="top: -200%;">
 
       <div class="table">
         <div class="td">
-
+          <!--
           <h1>
             <span data-0="opacity: 0;" data-300="opacity: 1;" data-1000="top: 0px;" data-2000="top: -1000px">
               Look
@@ -41,22 +40,24 @@
           </h1>
 
           <div class="avatar" data-2000="top: 0px; transform:rotate(0deg);" data-6000="top: -500px; transform:rotate(1020deg);"></div>
+          -->
         </div>
       </div>
 
     </div>
 
     <div id="frame-2" class="frame"
-      data-5000="top: 100%; background-color: rgb(71, 82, 94);"
-      data-6000="top: 0; background-color: rgb(130, 172, 190);">
+      data-100p="top: 100%; background-color: rgb(71, 82, 94);"
+      data-200p="top: 0; background-color: rgb(130, 172, 190);"
+      data-500p="top: 0;">
 
       <div class="table">
         <div class="td">
-
+          <!--
           <h1 data-6000="opacity: 0;" data-7000="opacity: 1;">
             Frame 2
           </h1>
-
+          -->
         </div>
       </div>
 
@@ -65,7 +66,7 @@
   </div>
 
   <script src="bower_components/skrollr/src/skrollr.js"></script>
-  <script src="bower_components/skrollr-ie/dist/skrollr.ie.min.jss"></script>
+  <script src="bower_components/skrollr-ie/dist/skrollr.ie.min.js"></script>
   <script src="demo.js"></script>
 </body>
 </html>
